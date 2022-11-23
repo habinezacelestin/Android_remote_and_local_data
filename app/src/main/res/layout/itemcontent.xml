@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear"
+    android:layout_marginLeft="11dp"
+    android:layout_marginRight="11dp"
+    android:layout_marginTop="11dp"
+    card_view:cardBackgroundColor="#F5F5F5"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="3dp"
+    card_view:contentPadding="4dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lin1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_baseline_book_24"/>
+            <!--                android:background="@drawable/badge_item_count"-->
+
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Book Title"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="horizontal">
+            <!--            android:layout_below="@id/linearlayoutabove"-->
+
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight=".2"
+                android:text="Athour Name" />
+
+            <TextView
+                android:id="@+id/page"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="40dp"
+                android:layout_weight=".2"
+                android:gravity="end"
+                android:text="Pages number"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_marginLeft="4dp"-->
+<!--    android:orientation="horizontal"-->
+<!--    android:id="@+id/linear"-->
+<!--    android:layout_height="wrap_content">-->
+
+<!--    &lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/id"-->
+<!--        android:layout_width="56dp"-->
+<!--        android:layout_height="56dp"-->
+<!--        android:text="Book id"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="160dp"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/text1"-->
+<!--            android:layout_width="160dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:text="mathematics"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="10dp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/text2"-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:text="authors"-->
+<!--            android:textColor="@color/black" />-->
+
+<!--    </LinearLayout>-->
+<!--    <TextView-->
+<!--        android:layout_height="60dp"-->
+<!--        android:id="@+id/page"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:gravity="end"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:text="Number of pages"-->
+<!--        android:textStyle="bold"/>-->
+<!--</LinearLayout>-->
